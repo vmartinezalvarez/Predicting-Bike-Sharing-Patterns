@@ -1,6 +1,6 @@
 # Predicting Bike Sharing Patterns
 
-![Center Image](images/fig1.JPG)
+![Center Image](images/fig1.jpg)
 
 
 
