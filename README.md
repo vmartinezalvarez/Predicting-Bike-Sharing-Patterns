@@ -2,6 +2,7 @@
 
 ![Center Image](images/Fig1.JPG)
 ![Center Image](images/Fig1.JPG){:height="50%" width="50%"}
+<img src="images/Fig1.JPG" width="200" height="400" />
 
 
 
