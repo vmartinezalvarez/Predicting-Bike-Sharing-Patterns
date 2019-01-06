@@ -1,11 +1,9 @@
 # Predicting Bike Sharing Patterns
 
 ![Center Image](images/Fig1.JPG)
+![Center Image](images/Fig1.JPG){:height="50%" width="50%"}
 
-|Lake Track|Jungle Track|
-|:--------:|:------------:|
-|[![Lake Track](images/lake_track.png)](https://youtu.be/hTPADovdyfA)|[![Jungle Track](images/jungle_track.png)](https://youtu.be/mZOc-zrbnR8)|
-|[YouTube Link](https://youtu.be/hTPADovdyfA)|[YouTube Link](https://youtu.be/mZOc-zrbnR8)|
+
 
 
 Bike sharing systems are new generation of traditional bike rentals where whole process from membership, rental and return 
