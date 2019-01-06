@@ -1,5 +1,7 @@
 # Predicting Bike Sharing Patterns
 
+![Center Image](images/center.png)
+
 |Lake Track|Jungle Track|
 |:--------:|:------------:|
 |[![Lake Track](images/lake_track.png)](https://youtu.be/hTPADovdyfA)|[![Jungle Track](images/jungle_track.png)](https://youtu.be/mZOc-zrbnR8)|
