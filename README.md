@@ -1,6 +1,6 @@
 # Predicting Bike Sharing Patterns
 
-![Center Image](images/center.png)
+![Center Image](Predicting-Bike-Sharing-Patterns/images/Fig1.JPG)
 
 |Lake Track|Jungle Track|
 |:--------:|:------------:|
