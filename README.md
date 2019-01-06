@@ -1,8 +1,7 @@
 # Predicting Bike Sharing Patterns
 
 ![Center Image](images/Fig1.JPG)
-![Center Image](images/Fig1.JPG){:height="50%" width="50%"}
-<img src="images/Fig1.JPG" width="200" height="400" />
+<img src="images/Fig1.JPG" width="600" height="600" />
 
 
 
