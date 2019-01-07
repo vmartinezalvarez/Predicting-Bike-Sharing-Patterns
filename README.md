@@ -1,4 +1,4 @@
-# Predicting Bike Sharing Patterns
+# Predicting Bike Sharing Patterns in Colab
 
 ![Center Image](images/fig1.jpg)
 
