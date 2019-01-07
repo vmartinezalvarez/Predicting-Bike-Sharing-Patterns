@@ -23,11 +23,8 @@ Predict the number of bikeshare users on a given day using a neural network buil
 
 In this project, I use a neural network to clone car driving behavior.  It is a supervised regression problem between the car steering angles and the road images in front of a car.  
 
-Those images were taken from three different camera angles (from the center, the left and the right of the car).  
+In this project, you'll get to build a neural network from scratch to carry out a prediction problem on a real dataset! By building a neural network from the ground up, you'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. You'll also get to see how to apply these networks to solve real prediction problems!
 
-The network is based on [The NVIDIA model](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/), which has been proven to work in this problem domain.
-
-As image processing is involved, the model is using convolutional layers for automated feature engineering.  
 
 ### Files included
 
@@ -42,19 +39,7 @@ Note: drive.py is originally from [the Udacity Behavioral Cloning project GitHub
 
 ## Quick Start
 
-### Install required python libraries:
-
-You need a [anaconda](https://www.continuum.io/downloads) or [miniconda](https://conda.io/miniconda.html) to use the environment setting.
-
-```python
-# Use TensorFlow without GPU
-conda env create -f environment.yml 
-
-# Use TensorFlow with GPU
-conda env create -f environment-gpu.yml
-```
-
-Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
+You can open the notebook directly in [Colab](https://colab.research.google.com) or clone the repo and work in your local machine. Yoo an manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
 ### Run the pretrained model
 
