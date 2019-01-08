@@ -17,18 +17,13 @@ events in the city could be detected via monitoring these data.
 ## About the Data Set
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com.
 
-=========================================
-Files
-=========================================
 
- - Readme.txt
- - hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
- - day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+
 
 	
-=========================================
-Dataset characteristics
-=========================================	
+
+## Dataset characteristics
+	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
 	
 	- instant: record index
@@ -64,6 +59,10 @@ In this project, you'll get to build a neural network from scratch to carry out 
 
 ### Files included
 
+ - Readme.txt
+ - hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+ - day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+ 
 - model.py The script used to create and train the model.
 - drive.py The script to drive the car. You can feel free to resubmit the original drive.py or make modifications and submit your modified version.
 - utils.py The script to provide useful functionalities (i.e. image preprocessing and augumentation)
@@ -77,51 +76,16 @@ Note: drive.py is originally from [the Udacity Behavioral Cloning project GitHub
 
 You can open the notebook directly in [Colab](https://colab.research.google.com) or clone the repo and work in your local machine. Yoo an manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
-## Data Preprocessing
+## Related Task
 
-### Image Sizing
-
-- the images are cropped so that the model won’t be trained with the sky and the car front parts
-- the images are resized to 66x200 (3 YUV channels) as per NVIDIA model
-- the images are normalized (image data divided by 127.5 and subtracted 1.0).  As stated in the Model Architecture section, this is to avoid saturation and make gradients work better)
-
-
-## Training, Validation and Test
-
-I splitted the images into train and validation set in order to measure the performance at every epoch.  Testing was done using the simulator.
-
-As for training, 
-
-- I used mean squared error for the loss function to measure how close the model predicts to the given steering angle for each image.
-- I used Adam optimizer for optimization with learning rate of 1.0e-4 which is smaller than the default of 1.0e-3.  The default value was too big and made the validation loss stop improving too soon.
-- I used ModelCheckpoint from Keras to save the model only if the validation loss is improved which is checked for every epoch.
-
-### The Lake Side Track
-
-As there can be unlimited number of images augmented, I set the samples per epoch to 20,000.  I tried from 1 to 200 epochs but I found 5-10 epochs is good enough to produce a well trained model for the lake side track.  The batch size of 40 was chosen as that is the maximum size which does not cause out of memory error on my Mac with NVIDIA GeForce GT 650M 1024 MB.
-
-
+- Regression: Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
+- Event and Anomaly Detection: Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
 
 ## References
-- NVIDIA model: https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/
-- Udacity Self-Driving Car Simulator: https://github.com/udacity/self-driving-car-sim
+- Udacity Deep Learning Nanodegree: Predicting-Bike-Sharing-Patterns.
 - Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
 
-
-
-
-=========================================
-Associated tasks
-=========================================
-
-	- Regression: 
-		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
-	
-	- Event and Anomaly Detection:  
-		Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
-		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
-		identified in [1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
 
 
 
