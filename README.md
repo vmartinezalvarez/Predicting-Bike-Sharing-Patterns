@@ -51,17 +51,10 @@ In this project, you'll get to build a neural network from scratch to carry out 
 
 ## Table Of Contents
 * [Data Set](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset)
-	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
- 	- day.csv : bike sharing counts aggregated on daily basis. Records: 731 days
-* [Neural networks in TensorFlow. Predicting Bike-Sharing Patterns.ipynb](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Neural_networks_in_TensorFlow_Predicting_Bike_Sharing_Patterns.ipynb): Starting building a neural network with Tensorflow to predict bike-sharing patterns.
-
- 
-- model.py The script used to create and train the model.
-- drive.py The script to drive the car. You can feel free to resubmit the original drive.py or make modifications and submit your modified version.
-- utils.py The script to provide useful functionalities (i.e. image preprocessing and augumentation)
-- model.h5 The model weights.
-- environments.yml conda environment (Use TensorFlow without GPU)
-- environments-gpu.yml conda environment (Use TensorFlow with GPU)
+	- [hour.csv](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset/day.csv) : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+ 	- [day.csv](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset/day.csv) : bike sharing counts aggregated on daily basis. Records: 731 days
+* [Neural_networks_from_scratch_Predicting_Bike-Sharing_Patterns.ipynb](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Neural_networks_in_TensorFlow_Predicting_Bike_Sharing_Patterns.ipynb): Building a neural network from scratch in [Colab](https://colab.research.google.com) to predict bike-sharing patterns.
+* [Neural networks in TensorFlow. Predicting Bike-Sharing Patterns.ipynb](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Neural_networks_in_TensorFlow_Predicting_Bike_Sharing_Patterns.ipynb): Building a neural network in [Colab](https://colab.research.google.com) using [TensorFlow](https://www.tensorflow.org/) Low Level API to predict bike-sharing patterns. Save and restore variables and models.
 
 ## Quick Start
 
