@@ -67,7 +67,7 @@ Note: drive.py is originally from [the Udacity Behavioral Cloning project GitHub
 
 ## Quick Start
 
-You can open the notebooks directly in [Colab](https://colab.research.google.com) or lownload the project materials from this GitHub repository. You can get download the repository  to your computer with ``git clone https://github.com/udacity/deep-learning.git``.
+You can open the notebooks directly in [Colab](https://colab.research.google.com), which is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud, and provides a free GPU or TPU services. Also you can download the project materials from this GitHub repository. You can get clone the repository  to your computer with ``git clone https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns.git``.
 
 ## Related Task
 
