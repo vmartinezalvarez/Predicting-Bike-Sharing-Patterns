@@ -53,7 +53,7 @@ In this project, you'll get to build a neural network from scratch to carry out 
 * [Data Set](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset)
 	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
  	- day.csv : bike sharing counts aggregated on daily basis. Records: 731 days
-* [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
+* [Neural networks in TensorFlow. Predicting Bike-Sharing Patterns.ipynb](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Neural_networks_in_TensorFlow_Predicting_Bike_Sharing_Patterns.ipynb): Starting building a neural network with Tensorflow to predict bike-sharing patterns.
 
  
 - model.py The script used to create and train the model.
