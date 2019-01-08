@@ -49,12 +49,12 @@ In this project, I use a neural network to clone car driving behavior.  It is a 
 
 In this project, you'll get to build a neural network from scratch to carry out a prediction problem on a real dataset! By building a neural network from the ground up, you'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. You'll also get to see how to apply these networks to solve real prediction problems!
 
+## Table Of Contents
+* [Data Set](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset)
+	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+ 	- day.csv : bike sharing counts aggregated on daily basis. Records: 731 days
+* [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
-### Files included
-
- - Readme.txt
- - hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
- - day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
  
 - model.py The script used to create and train the model.
 - drive.py The script to drive the car. You can feel free to resubmit the original drive.py or make modifications and submit your modified version.
@@ -62,8 +62,6 @@ In this project, you'll get to build a neural network from scratch to carry out 
 - model.h5 The model weights.
 - environments.yml conda environment (Use TensorFlow without GPU)
 - environments-gpu.yml conda environment (Use TensorFlow with GPU)
-
-Note: drive.py is originally from [the Udacity Behavioral Cloning project GitHub](https://github.com/udacity/CarND-Behavioral-Cloning-P3) but it has been modified to control the throttle.
 
 ## Quick Start
 
