@@ -43,11 +43,9 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 
 ## Project Description
 
-Predict the number of bikeshare users on a given day using a neural network built from scratch, using tensorflow and using pytorch
+Predict the number of bikeshare users on a given day using a neural network built from scratch, and using tensorflow.
 
-In this project, I use a neural network to clone car driving behavior.  It is a supervised regression problem between the car steering angles and the road images in front of a car.  
-
-In this project, you'll get to build a neural network from scratch to carry out a prediction problem on a real dataset! By building a neural network from the ground up, you'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. You'll also get to see how to apply these networks to solve real prediction problems!
+In this project, I build a neural network from scratch to carry out a prediction problem on a real dataset! By building a neural network from the ground up, you'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. You'll also get to see how to apply these networks to solve real prediction problems!
 
 ## Table Of Contents
 * [Data Set](https://github.com/vmartinezalvarez/Predicting-Bike-Sharing-Patterns/blob/master/Bike-Sharing-Dataset)
